@@ -1,4 +1,4 @@
-package com.projects.Car;
+package com.demo.Car;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;

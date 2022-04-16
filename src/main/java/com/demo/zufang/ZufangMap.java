@@ -1,4 +1,4 @@
-package com.projects.zufang;
+package com.demo.zufang;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONException;

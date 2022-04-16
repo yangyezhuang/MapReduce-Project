@@ -1,4 +1,4 @@
-package com.projects.Car;
+package com.demo.Car;
 
 public enum CountEnum {
     TotalRecorder;

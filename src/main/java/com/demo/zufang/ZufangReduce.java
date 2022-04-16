@@ -1,4 +1,4 @@
-package com.projects.zufang;
+package com.demo.zufang;
 
 import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.io.Text;

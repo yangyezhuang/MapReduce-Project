@@ -1,4 +1,4 @@
-package com.projects.replace;
+package com.demo.replace;
 /*
 去重
  */

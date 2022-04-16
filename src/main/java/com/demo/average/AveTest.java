@@ -1,4 +1,4 @@
-package com.projects.average;
+package com.demo.average;
 /*
 求平均值
  */

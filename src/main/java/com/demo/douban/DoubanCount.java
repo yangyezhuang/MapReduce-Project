@@ -1,4 +1,4 @@
-package com.projects.douban;
+package com.demo.douban;
 
 public enum DoubanCount {
     TotalRecorder

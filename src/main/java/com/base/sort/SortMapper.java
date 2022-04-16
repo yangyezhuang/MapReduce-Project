@@ -1,4 +1,4 @@
-package com.basics.排序与序列化;
+package com.base.sort;
 
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.NullWritable;

@@ -1,4 +1,4 @@
-package com.projects.replace;
+package com.demo.replace;
 
 import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.io.Text;

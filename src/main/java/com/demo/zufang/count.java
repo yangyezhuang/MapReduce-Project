@@ -1,4 +1,4 @@
-package com.projects.zufang;
+package com.demo.zufang;
 
 public enum count {
     TotalRecorder

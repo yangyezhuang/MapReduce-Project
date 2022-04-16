@@ -1,4 +1,4 @@
-package com.projects.Course;
+package com.demo.Course;
 
 import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.mapreduce.Reducer;

@@ -1,4 +1,4 @@
-package com.projects.douban;
+package com.demo.douban;
 
 import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.io.Text;

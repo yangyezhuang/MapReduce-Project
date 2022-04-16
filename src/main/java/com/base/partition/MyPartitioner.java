@@ -1,9 +1,12 @@
-package com.basics.分区;
+package com.base.partition;
 
 import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Partitioner;
 
+/**
+ * 分区案例
+ */
 public class MyPartitioner extends Partitioner<Text, NullWritable> {
     /*
       1：定义分区规则

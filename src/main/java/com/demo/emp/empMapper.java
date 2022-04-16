@@ -1,4 +1,4 @@
-package com.projects.emp;
+package com.demo.emp;
 
 
 import org.apache.hadoop.io.LongWritable;

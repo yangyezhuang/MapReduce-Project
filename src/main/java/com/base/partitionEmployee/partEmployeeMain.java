@@ -1,4 +1,4 @@
-package com.basics.partitionEmployee;
+package com.base.partitionEmployee;
 
 
 import org.apache.hadoop.conf.Configuration;

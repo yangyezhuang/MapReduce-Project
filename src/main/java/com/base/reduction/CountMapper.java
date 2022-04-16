@@ -1,4 +1,4 @@
-package com.basics.归约;
+package com.base.reduction;
 
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
@@ -7,6 +7,9 @@ import org.apache.hadoop.mapreduce.Mapper;
 
 import java.io.IOException;
 
+/**
+ * 归约案例
+ */
 public class CountMapper extends Mapper<LongWritable, Text, Text, LongWritable> {
     Text text = new Text();
     //    IntWritable intwritable = new IntWritable();

@@ -1,4 +1,4 @@
-package com.projects.average;
+package com.demo.average;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;

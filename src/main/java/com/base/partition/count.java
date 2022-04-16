@@ -1,4 +1,4 @@
-package com.basics.分区;
+package com.base.partition;
 
 public enum count {
     big, small

@@ -1,7 +1,7 @@
-package com.basics.归约;
+package com.base.reduction;
 
-import com.projects.wordcount.WordCountMapper;
-import com.projects.wordcount.WordCountReduer;
+import com.demo.wordcount.WordCountMapper;
+import com.demo.wordcount.WordCountReduer;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.LongWritable;
@@ -13,6 +13,9 @@ import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 
 import java.io.IOException;
 
+/**
+ * 归约案例
+ */
 public class JobMain {
     public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
         Configuration conf = new Configuration();

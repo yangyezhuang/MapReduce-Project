@@ -1,4 +1,4 @@
-package com.projects.zufang;
+package com.demo.zufang;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
