@@ -1,0 +1,7 @@
+hive,mysql,
+spark,hadoop,hive,
+hadoop,hadoop,
+mysql,spark,
+hive,hadoop,
+mysql,hadoop,mysql,spark,
+apple,tom

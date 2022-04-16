@@ -1,0 +1,5 @@
+hive,hadoop,apple
+spark,hive,car
+cake,apple,hive
+apple,spark,snake
+car
