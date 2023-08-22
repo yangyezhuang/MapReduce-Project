@@ -7,6 +7,22 @@
     <groupId>org.example</groupId>
     <artifactId>Demo</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>demo-compute-average</module>
+        <module>demo-car</module>
+        <module>demo-course</module>
+        <module>demo-douban</module>
+        <module>demo-emp</module>
+        <module>demo-partition</module>
+        <module>demo-partition-employee</module>
+        <module>demo-rent-house</module>
+        <module>demo-replace</module>
+        <module>demo-reduction</module>
+        <module>demo-sort</module>
+        <module>demo-word-count</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
