@@ -1,4 +1,4 @@
-# MapReduce-Demo
+# MapReduce-Project
 
 欢迎来到 MapReduce-Demo 项目！本仓库包含了多个 MapReduce 案例，旨在帮助您理解和掌握 MapReduce 编程模型以及其在大数据处理中的应用。每个案例都以简洁明了的方式演示了不同场景下的 MapReduce 实现，并提供了详细的说明和用法。
 
