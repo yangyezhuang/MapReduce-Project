@@ -65,7 +65,7 @@ public class DoubanMapper extends Mapper<LongWritable, Text, Text, NullWritable>
 //                    date = data.replaceAll("(?:年|月|日)", "-").substring(0, data.length() - 1);
 //                }
                 else if (str_date.contains("元")) {
-                    context.getCounter(DoubanCount.TotalRecorder).increment(1);
+                    context.getCounter(EnumCount.TotalRecorder).increment(1);
                     return;
                 } else {
                     int date_len = str_date.length();
@@ -211,7 +211,7 @@ public class DoubanMapper extends Mapper<LongWritable, Text, Text, NullWritable>
                     float pri = Float.parseFloat(prc);
                     price = String.valueOf(pri);
                 } else if (str_price.contains("-")) {
-                    context.getCounter(DoubanCount.TotalRecorder).increment(1);
+                    context.getCounter(EnumCount.TotalRecorder).increment(1);
                     return;
                 } else if (str_price.contains("TWD")) {
                     String re1 = "[^0-9||.]";
@@ -221,12 +221,12 @@ public class DoubanMapper extends Mapper<LongWritable, Text, Text, NullWritable>
                     int pri = Integer.parseInt(prc);
                     price = String.valueOf(pri / 4);
                 } else if (str_price.contains("大塊文化")) {
-                    context.getCounter(DoubanCount.TotalRecorder).increment(1);
+                    context.getCounter(EnumCount.TotalRecorder).increment(1);
                     return;
                 } else if (str_price.contains("（全三册）")) {
                     price = str_price.replaceAll("（全三册）", "");
                 } else if (str_price.equals("")) {
-                    context.getCounter(DoubanCount.TotalRecorder).increment(1);
+                    context.getCounter(EnumCount.TotalRecorder).increment(1);
                     return;
                 } else {
 //                    price = jsonObject.getString("price").replace("元", "");

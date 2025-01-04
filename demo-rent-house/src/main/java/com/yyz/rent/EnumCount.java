@@ -1,5 +1,5 @@
 package com.yyz.rent;
 
-public enum count {
+public enum EnumCount {
     TotalRecorder
 }

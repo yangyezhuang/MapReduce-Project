@@ -53,7 +53,7 @@ public class ZufangMap extends Mapper<LongWritable, Text, Text, NullWritable> {
                 rent = jsonObject.getString("房租");
                 if (rent.equals("")) {
                     hasRent = false;
-                    context.getCounter(count.TotalRecorder).increment(1);
+                    context.getCounter(EnumCount.TotalRecorder).increment(1);
                     //                JobMain.COUNT++;
                 }
             }

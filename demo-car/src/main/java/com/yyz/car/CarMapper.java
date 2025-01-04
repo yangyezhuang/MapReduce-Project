@@ -24,7 +24,7 @@ public class CarMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
 
         for (int i : ls) {
             if (ll[i].contains("--")) {
-                context.getCounter(CountEnum.TotalRecorder).increment(1);
+                context.getCounter(EnumCount.TotalRecorder).increment(1);
                 return;
             }
         }

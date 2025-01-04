@@ -40,7 +40,7 @@ public class DoubanTest {
 
         path.getFileSystem(conf).delete(path, true);
         if (job.waitForCompletion(true)) {
-            System.out.println("无效数据：" + job.getCounters().findCounter(DoubanCount.TotalRecorder).getValue() + "条");
+            System.out.println("无效数据：" + job.getCounters().findCounter(EnumCount.TotalRecorder).getValue() + "条");
         }
     }
 }

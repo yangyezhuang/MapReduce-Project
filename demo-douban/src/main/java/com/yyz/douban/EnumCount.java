@@ -1,5 +1,5 @@
 package com.yyz.douban;
 
-public enum DoubanCount {
+public enum EnumCount {
     TotalRecorder
 }

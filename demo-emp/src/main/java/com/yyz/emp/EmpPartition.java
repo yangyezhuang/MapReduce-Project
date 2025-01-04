@@ -4,7 +4,7 @@ import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Partitioner;
 
-public class empPartition extends Partitioner<Text, NullWritable> {
+public class EmpPartition extends Partitioner<Text, NullWritable> {
     @Override
     public int getPartition(Text text, NullWritable nullWritable, int numPartitions) {
 //        String[] line = text.toString().split(",");

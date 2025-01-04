@@ -40,7 +40,7 @@ public class ZufangTest {
 
         path.getFileSystem(conf).delete(path, true);
         if (job.waitForCompletion(true)) {
-            System.out.println("Total num: " + job.getCounters().findCounter(count.TotalRecorder).getValue());
+            System.out.println("Total num: " + job.getCounters().findCounter(EnumCount.TotalRecorder).getValue());
 //            System.out.println("Total num: " + COUNT);
         }
     }

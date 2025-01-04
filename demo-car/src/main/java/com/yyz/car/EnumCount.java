@@ -1,5 +1,5 @@
 package com.yyz.car;
 
-public enum CountEnum {
+public enum EnumCount {
     TotalRecorder;
 }

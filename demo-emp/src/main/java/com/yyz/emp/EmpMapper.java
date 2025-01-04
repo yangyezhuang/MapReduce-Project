@@ -8,7 +8,7 @@ import org.apache.hadoop.mapreduce.Mapper;
 
 import java.io.IOException;
 
-public class empMapper extends Mapper<LongWritable, Text, Text, NullWritable> {
+public class EmpMapper extends Mapper<LongWritable, Text, Text, NullWritable> {
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         context.write(value, NullWritable.get());

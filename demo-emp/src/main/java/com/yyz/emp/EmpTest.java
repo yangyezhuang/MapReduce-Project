@@ -11,20 +11,20 @@ import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 
 import java.io.IOException;
 
-public class empTest {
+public class EmpTest {
     public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
         Configuration conf = new Configuration();
         Job job = Job.getInstance(conf, "csvTest");
 
-        job.setJarByClass(empTest.class);
+        job.setJarByClass(EmpTest.class);
         //Mapper类，设置k2，v2
-        job.setMapperClass(empMapper.class);
+        job.setMapperClass(EmpMapper.class);
         job.setMapOutputKeyClass(Text.class);
         job.setMapOutputValueClass(NullWritable.class);
         // 分区类
-        job.setPartitionerClass(empPartition.class);
+        job.setPartitionerClass(EmpPartition.class);
         // Reduce类，设置k3，v3
-        job.setReducerClass(empReducer.class);
+        job.setReducerClass(EmpReducer.class);
         job.setOutputValueClass(Text.class);
         job.setOutputValueClass(NullWritable.class);
         job.setOutputFormatClass(TextOutputFormat.class);
